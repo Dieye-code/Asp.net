@@ -1,0 +1,21 @@
+﻿
+
+<div class="row row-cols-1 row-cols-md-3 g-4">
+
+@for(var i = 0; i < 10; i++){
+    <div class="col" >
+        <div class="card pie-card">
+            <img src="https://picsum.photos/200/300" class="card-img-top" alt="image" />
+            <div class="card-body pie-button">
+                <div class="d-flex justify-content-between mt-2">
+                    <h2 class="text-start">
+                        <a>@{const string chars = "ABCDEFGHIJKLMNOPQRSTUVWXYZ0123456789";
+     new string(Enumerable.Repeat(chars, 10)
+        .Select(s => s[(new Random()).Next(s.Length)]).ToArray());}</a>
+                    </h2>
+                </div>
+            </div>
+        </div>
+    </div>
+}
+</div>
