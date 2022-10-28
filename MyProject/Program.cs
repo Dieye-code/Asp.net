@@ -1,7 +1,16 @@
- var builder = WebApplication.CreateBuilder(args);
+using Microsoft.EntityFrameworkCore;
+using MyProject.Models;
+
+var builder = WebApplication.CreateBuilder(args);
 
 // Add services to the container.
 builder.Services.AddControllersWithViews();
+
+builder.Services.AddDbContext<DatabaseContext>(options =>
+{
+    options.UseMySQL(builder.Configuration["ConnectionStrings:Default"]);
+});
+
 //builder.Services.AddScoped<ServiceCollection, ServiceCollection>();
 
 var app = builder.Build();

@@ -15,12 +15,12 @@ build_property.GenerateRazorMetadataSourceChecksumAttributes =
 build_property.MSBuildProjectDirectory = C:\Users\moust\Documents\document\Asp\MyProject\MyProject
 build_property._RazorSourceGeneratorDebug = 
 
-[C:/Users/moust/Documents/document/Asp/MyProject/MyProject/Views/Layots/_Layout.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTGF5b3RzXF9MYXlvdXQuY3NodG1s
-build_metadata.AdditionalFiles.CssScope = 
-
 [C:/Users/moust/Documents/document/Asp/MyProject/MyProject/Views/Product/list.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUHJvZHVjdFxsaXN0LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/moust/Documents/document/Asp/MyProject/MyProject/Views/Shared/_Layout.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9MYXlvdXQuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
 [C:/Users/moust/Documents/document/Asp/MyProject/MyProject/Views/_ViewImports.cshtml]
